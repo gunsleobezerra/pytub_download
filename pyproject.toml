@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "pytub-download"
+version = "0.1.0"
+description = "A simple prompt interface to download videos of youtube"
+authors = ["Leonardo Bezerra <leosoares.bezerra2017@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pytubefix = "^8.1.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
